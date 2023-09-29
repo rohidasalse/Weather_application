@@ -1,0 +1,36 @@
+@media (max-width: 1400px) {
+    .weather_data.weather_info {
+        padding: 20px;
+    }
+    .weather_card {
+        flex-wrap: wrap;
+    }
+    .weather_card.card {
+        width: calc(100% / 4 - 15px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .weather_card.card {
+        width: calc(100% / 3 - 15px);
+    }
+}
+
+@media (max-width: 950px) {
+    .weather_input {
+        width: 450px;
+    }
+    .weather_card.card {
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+@media (max-width: 750px) {
+    .weather_input {
+        width: 100%;
+    }
+    .container {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+}
